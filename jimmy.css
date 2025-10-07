@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f4f4f4;
+    justify-content: space-around;
+    background-image:url(../IMG_25680824_085647.jpg);
+    /* -background: linear-gradient(to top, #c07c0e, #ab1313);--> */
+    display: flex;
+}
+.card{
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px SOLID black;
+    flex-basis: 35%;
+    text-align: center;   
+    box-shadow: 12px 12px rgb(115, 117, 115);
+    margin : auto;
+    max-width: 800px;
+    min-width: 300px;
+    overflow: hidden;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+    width: 90%;
+}
